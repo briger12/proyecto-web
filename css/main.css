@@ -15,6 +15,9 @@ body {
 .contenedor-menu{
     background-color: #4c7194;
 }
+#carousel{
+    margin-top: 10px;
+}
 #menu{
     background-color: #4c7194;
 }
@@ -47,6 +50,8 @@ body {
     max-height:39rem !important;
     
 }
+
+
 
 /*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
 
