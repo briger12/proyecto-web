@@ -108,7 +108,7 @@ body {
     background-color: #f3f3f3;
     display:flex;
     justify-content: center; 
-    padding-bottom: 300px; 
+    padding-bottom: 30px; 
 }
 
 .mapa {
@@ -150,37 +150,6 @@ body {
 #numeros-local p{
     margin:0;
 }
-
-/*=========================CONTACTOS BACKGROUND================================*/
-
-#bg-contactos{
-    position:relative;
-    top: -130px;
-} 
-
- #seccion-contacto{
-    background-color: #1b2a4e;
-    min-height:500px;
-    position:relative;
-}
-
-/*=========================CONTACTOS FORMULARIO================================*/
-
-#contenedor-formulario{
-    position:absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    background: #fbfafa;
-    border-radius:5px;
-    
-}
-
-#titulo-formulario {
-    color: #3f3f3f;
-}
-
-
 
 
 /*=========================FOOTER================================*/

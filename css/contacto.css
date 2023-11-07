@@ -1,0 +1,48 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/*color fondo logo #4c7194*/
+
+
+
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+#bg-contactos{
+    /*position:relative;
+    top: -130px;*/
+} 
+
+ #seccion-contacto{
+  /*  background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;*/
+}
+
+/*=========================CONTACTOS FORMULARIO================================*/
+
+#contenedor-formulario{
+    border-radius: 30px;
+    border: 2px solid #4c7194;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 11px 20px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 20px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 20px -1px rgba(0,0,0,0.75);
+    /*    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;*/
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+
+
