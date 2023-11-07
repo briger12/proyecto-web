@@ -9,31 +9,66 @@ body {
     overflow-x: hidden;
 }
 
+/* Boton Whatsapp*/
+.btn-whatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    width: 75px;
+    height: 75px;
+    background: #4c7194;
+    text-align: center;
+    transition: ease .7s;
+    line-height: 75px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #fff;
+    z-index: 100;
+    padding: 1px;
+    box-shadow: 10px 11px 20px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 11px 20px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 20px -1px rgba(0,0,0,0.75);
+}
+
+.btn-whatsapp:hover{
+    color: #a3a5a7
+}
+
+
+
+
+/*================ENCABEZADO===================*/
 .encabezado-tope{
     background-color: #4c7194;
 }
+
+#iconos{
+    display: flex;
+}
+/*===================MENU==========================*/
+
+
+
 .contenedor-menu{
     background-color: #4c7194;
-}
-#carousel{
-    margin-top: 10px;
-}
-#menu{
-    background-color: #4c7194;
-}
+} 
+
 .contenedor-logo{
 
        
     max-width: 30%;
 }
+
 .logo{
     max-width: 100%;
     max-height: 100%;
 }
 
-/*===================MENU==========================*/
+#menu{
+    background-color: #4c7194;
+}
 
- #menu a, button{
+#menu a, button{
      font-size: 18px !important;
      font-weight: 600;
     
@@ -45,6 +80,10 @@ body {
      
  }
 /*===================SLIDER DE IMAGENES==========================*/
+
+#carousel{
+    margin-top: 10px;
+}
 
 .carousel-inner {
     max-height:39rem !important;
@@ -214,7 +253,7 @@ footer p{
 }
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     #servicios-fila-2 {
         width:100% !important;
     }
@@ -227,4 +266,13 @@ footer p{
         justify-content: center !important;
         text-align: center;
     }
+    .div-contenedor-menu-encabezado{
+        
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+    }
 }
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-XS================================*/
+

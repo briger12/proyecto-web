@@ -18,16 +18,21 @@
   <!--========================================================== -->
                         <!-- ENCABEZADO -->
   <!--========================================================== -->
-    <header class="container-fluid encabezado-tope d-flex justify-content-center">
+    <div class=" sticky-sm-top sticky-md-top
+    sticky-lg-top sticky-xl-top  sticky-xs-top div-contenedor-menu-encabezado">
+    
+    <header class="container-fluid encabezado-tope d-flex justify-content-center  " id="cabecera">
         <p class="text-light mb-0 p-2 fs-6">Contactanos 1-(305)-725-1000</p>
         <div id="iconos" >
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/airesdelmocona/" target="_blank"><i class="bi bi-facebook"></i></a>
+          <!-- <a href="#"><i class="bi bi-twitter"></i></a> -->
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
           <a href="#"><i class="bi bi-instagram"></i></a>  
       </div>
     </header>
 
-    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+    <nav  class="navbar navbar-expand-lg navbar-light p-3 "  id="menu">
+      
         <div class="container contenedor-menu">
           <a class="navbar-brand contenedor-logo" href="#">
               <span class="fs-5 text-primary fw-bold"><img src="./recursos/logo-con-fondo.png" alt="" class="logo"></span>
@@ -62,6 +67,19 @@
 
         </div>
       </nav>
+    </div>
+
+      <!--========================================================== -->
+                        <!-- texto acerca de nosotros -->
+    <!--========================================================== -->
+
+
+      <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3 ">Un lugar donde disfrutar de un entrono natural unico<span class="text-primary"></span></h1>
+     <p class="p-3  fs-4 border-bottom border-3">
+         <span class="text-primary ">Aires del Mocona</span> donde dejaras tus morlacos, sino, parecera un accidente        
+     </p>   
+    </section>
 
     <!--========================================================== -->
                         <!-- SLIDER DE IMAGENES-->
@@ -70,7 +88,7 @@
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src="./recursos/img cabañas/WhatsApp Image 2023-11-02 at 16.23.34(1).jpeg" class="d-block w-100" alt="">
+            <img src="./recursos/img cabañas/WhatsApp Image 2023-11-02 at 16.23.34(1).jpeg" class="d-block w-100" alt="habitaciones amplias mocona complejo de piletas">
           </div>
           
  
@@ -265,6 +283,13 @@
   </div>
 </section>
 
+<!--========================================================== -->
+                        <!--icono whatapp-->
+<!--========================================================== -->
+
+<div class="WhatsApp-fijo">
+  <a href="https://wa.me/+5493415123456" target="_blank" class="btn-whatsapp"><i class="bi bi-whatsapp"></i></a>
+</div>
 
 <!--========================================================== -->
                         <!--FOOTER-->
@@ -275,7 +300,8 @@
   <p class="fs-5 px-3  pt-3">Aires del Mocona &copy; Todos Los Derechos Reservados 2021</p>
   <div id="iconos" >
       <a href="#"><i class="bi bi-facebook"></i></a>
-      <a href="#"><i class="bi bi-twitter"></i></a>
+      <!--<a href="#"><i class="bi bi-twitter"></i></a>-->
+      <a href="#"><i class="bi bi-whatsapp"></i></a>
       <a href="#"><i class="bi bi-instagram"></i></a>  
   </div>
 </footer>
