@@ -147,7 +147,14 @@ h3{
 
 }
 
+@media screen and (max-width: 575px) {
 
+.contenedor-actividades{
+    display: flex;
+    flex-direction: column;
+
+    }
+}
 
 
 
