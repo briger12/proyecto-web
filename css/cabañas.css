@@ -1,14 +1,175 @@
 
-
+/*
 .contenedor-cabañas{
 border: 2px solid red;
+width: 80%;
+left: 10%;
+position: relative;
+margin-top: 50px;
+border-radius: 10px;
+}
+.cabañas{
+display: flex;
+
+}
+.div-img-cabañas{
+    height: 100%;
+    width: 100%;
+    margin-left: -10%;
+    margin-top: 5%;
+
+}
+
+.img-cabañas{
+    width: 100%;
+    border-radius: 10px;
+   
+    height: 100%;
+}
+.texto-cabañas{
+    color: red;
+    text-align: justify;
+    max-width: 40%;
+    margin: 5%;
+    height: 40%;
+}
+.ver-mas{
+    z-index: 100;
+    position: relative;
+    left: 30%;
+    top: 40%;
+    background: blue;
+    display: block;
+    height: fit-content;
+    padding: 5px;
+    margin-top: 5%;
 }
 
 .complejo{
 border: 2px solid green;
 }
 
-.cabañas{
-border: 2px solid blue;
+
+*/
+
+/*pop up cabañas*/
+.popup-cabañas{
+    display: none;
+    position: absolute;
+    width: 60%;
+    top: 40%;
+    left: 20%;
+   max-height: 200px;
+
+}
+
+
+
+
+
+
+/*contenedor cabañas*/
+
+.contenedor-cabañas{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cabañas, .complejo{
+   display: flex;
+   
+   padding: 5px;
+   height: 25em;
+   background: #598894;
+   
+}
+
+.div-img-cabañas {
+
+    background-image: url(../recursos/img-cabañas/WhatsApp\ Image\ 2023-11-02\ at\ 16.23.34\(1\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+
+
+    -webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,1);
+box-shadow: 0px 0px 25px 5px rgba(0,0,0,1);
+    
+    
+}
+.div-img-complejo{
+    background-image: url(../img/complejo/desde-rio.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;    
+    -webkit-box-shadow: 0px 0px 25px 5px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 25px 5px rgba(0,0,0,1);
+box-shadow: 0px 0px 25px 5px rgba(0,0,0,1);
+}
+#btn-ver-mas, #btn-ver-mas-complejo {
+    
+    position: relative;
+    /* margin-top: 50%; */
+    top: 90%;
+    left: 33%;
+    width: 33%;
+    min-width: fit-content;
+    border-radius: 10px;
+    color: violet;
+    background-color: wheat;
+    
+
+}
+.a-ver-mas{
+
+}
+
+
+
+.texto-cabañas, .texto-complejo{
+max-width: 50%;
+align-self: center ;
+padding-left: 10px;
+padding-right: 10px;
+color: #fff;
+}
+.texto-cabañas >p{
+
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.h2-complejo{
+    margin-top: 100px;
+}
+
+
+
+@media (max-width:768px){
+    .cabañas, .complejo{
+        flex-direction: column;
+        
+    }
+    .texto-cabañas, .texto-complejo{
+        max-width: 100%;
+    }
+    .div-img-cabañas, .div-img-complejo{
+        height: 100%;
+    }
 
 }
